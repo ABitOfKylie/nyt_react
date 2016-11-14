@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -22,8 +23,8 @@
   position:absolute left 0;
   position:absolute right 0;
   object-position: fixed;
-  background-color: blue;
-  height: 150px;
+  background-color: lightblue;
+  height: 100px;
   padding: 20px;
   color: white;
 }
@@ -37,8 +38,8 @@
 }
 
 .row{
-  margin-top: 40px;
-  padding: 0 10px;
+  margin-top: 10px;
+  padding: 0px;
 }
 
 .clickable{
@@ -48,14 +49,63 @@
   margin-top: -20px;
   font-size:15px;
 }
+.resultInput{
+  width: 90%;
+}
+.searchTitle{
+  background-color: #777;
+  border:solid 2px black;
+  color: white;
+  margin:0;
+}
+
+#searchBtn{
+  margin-left: 20px;
+  width:50%;
+  height:40px;
+}
+#custom-search-input{
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+#custom-search-input input{
+  border:0;
+  box-shadow: none;
+  float:left;
+}
+#custom-search-input button{
+  margin:2px 0 0 0;
+  background:none;
+  box-shadow: none;
+  border:0;
+  color:#666666;
+  padding:0 8px 0 10px;
+  border-left:solid 1px #ccc;
+}
+#custom-search-input button:hover{
+  border:0;
+  box-shadow:none;
+  border-left: solid 1px #ccc;
+}
+#custom-search-input .glyphicon-search{
+  font-size:23px;
+}
+label{
+  background-color: #777;
+  color:white;
+  border: solid 2px;
+  padding: 3px;
+}
 footer {
   position:absolute bottom 0;
   position:absolute left 0;
   position:absolute right 0;
 
 
-  background-color: #blue;
-  height: 150px;
+  background-color:lime;
+  height: 100px;
   padding: 20px;
   color: white;
 }
