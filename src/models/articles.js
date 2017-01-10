@@ -1,11 +1,18 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var SavedSchema = new Schema({
-	title: String,
-	saveDate: Date
+var ArticleSchema = new Schema({
+	title: {
+		type: String,
+	},
+	date:{
+		type: date
+	},
+	url: {
+		type:String,
+	}
 });
 
-var Articles = mongoose.model('Articles', SavedSchema);
+module.exports = mongoose.model('Article', ArticleSchema);
 
-module.exports = Articles;
+

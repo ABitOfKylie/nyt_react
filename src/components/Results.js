@@ -8,10 +8,10 @@ const Results=props => (
 		<div className="col-lg-10">
 		<div className="row">
 			<div className="well">
-				<div className="panel panel-success">
+				<div className="panel">
 					<div className="panel-heading">
 						<h3> This is the new panel heading for Results Panel 1</h3>
-						<span className="pull-right clickable"><i className="glyphicon glyphicon-chevron-up"></i></span>
+						<span className="pull-right clickable" id="pHeader"><i className="glyphicon glyphicon-chevron-up"></i></span>
 				{/*<input type="text" className="form-control" onChange={props.handleChange} placeholder="In my dreams, this will be the start of the Results section - see results.js" value={props.search}/> */}
 					</div>
 					<div className="panel-body" id="article1"><span>Panel content {props.search} in body 1</span>

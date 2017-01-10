@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Giphy = props => (
+const Search = props => (
 	<div>
 		// <form onSubmit={props.handleSubmit}>
 		// 	<input onChange={props.handleChange} placeholder="whatever" value={props.search}/>
@@ -11,4 +11,4 @@ const Giphy = props => (
 	</div>
 
 )
-export default Giphy
+export default search

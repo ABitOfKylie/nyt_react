@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import NavBar from '../components/NavBar';
-import Giphy from '../components/Giphy';
+import Navbar from '../components/Navbar';
 import axios from 'axios';
 
 class Search extends Component {
@@ -13,7 +12,7 @@ class Search extends Component {
     }
     handleSubmit(e){
         e.preventDefault();
-        this.getThatInfo(this.state.search);
+        this.getThatShit(this.state.search);
 
 
         this.setState({search:""})
@@ -24,7 +23,7 @@ class Search extends Component {
 
     }
 
-    getThatInfo(giphy){
+    getThatShit(giphy){
         const url = `http://api.giphy.com/v1/gifs/search?q=${giphy}&api_key=dc6zaTOxFJmzC`;
         console.log(url);
         axios.get(url)
@@ -35,7 +34,7 @@ class Search extends Component {
     render(){
         return (
             <div>
-                <NavBar
+                <Navbar
                     handleChange={this.handleChange.bind(this)}
                     search={this.state.search}
                     handleSubmit={this.handleSubmit.bind(this)}

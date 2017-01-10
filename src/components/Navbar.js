@@ -6,10 +6,10 @@ const Navbar = props => (
     <div>
         <div className="container">
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-4-offset-6">
                     <h2 className="searchTitle">Article Search</h2>
                         <div id="custom-search-input">
-                            <div className="input-group col-md-12">
+                            <div className="input-group col-md-4-offset-6">
                                 <form onSubmit={props.handleSubmit} >
                                     {props.show ? <input onChange={props.handleChange} placeholder="belongs to Navbar.js" value={props.search}/> : null}
                                                                     </form>

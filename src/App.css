@@ -1,8 +1,27 @@
 .App {
   text-align: center;
+  border:black solid 15px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
+/*.App-body{
+    border:black solid 6px;
+}*/
+.App-container{
+    border:black solid 6px;
+}
+
+.panel{
+    border:black solid 6px;
+    background:#CFD8DC;
+
+}
+.well{
+    border:black solid 6px;
+    background-color: #607D8B;
+    padding:10px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 50px;
@@ -12,7 +31,7 @@
   position:absolute top 0;
   position:absolute left 0;
   position:absolute right 0;
-  background-color: #777;
+  background-color: #455A64;
   height: 150px;
   padding: 20px;
   color: white;
@@ -23,7 +42,7 @@
   position:absolute left 0;
   position:absolute right 0;
   object-position: fixed;
-  background-color: lightblue;
+  background-color: #455A64;
   height: 100px;
   padding: 20px;
   color: white;
@@ -37,6 +56,10 @@
   color:blue;
 }
 
+.App-button{
+  background: #455A64;
+}
+
 .row{
   margin-top: 10px;
   padding: 0px;
@@ -48,12 +71,21 @@
 .panel-heading span{
   margin-top: -20px;
   font-size:15px;
+  background-color: #777; 
+}
+#pHeader{
+  background-color: #777; 
+
 }
 .resultInput{
   width: 90%;
 }
+
+/*.custom-search-input{
+  float: left;
+}*/
 .searchTitle{
-  background-color: #777;
+  background-color: #607D8B;
   border:solid 2px black;
   color: white;
   margin:0;
@@ -63,12 +95,13 @@
   margin-left: 20px;
   width:50%;
   height:40px;
+
 }
 #custom-search-input{
   padding: 3px;
   border: solid 1px #E4E4E4;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: #CFD8DC;
 }
 #custom-search-input input{
   border:0;
@@ -104,7 +137,7 @@ footer {
   position:absolute right 0;
 
 
-  background-color:lime;
+  background-color:black;
   height: 100px;
   padding: 20px;
   color: white;

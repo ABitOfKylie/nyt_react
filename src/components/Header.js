@@ -7,8 +7,8 @@ const Header=props => (
         	<div className="App-header">
           		<h1><strong>New York Times Article Scrubber</strong></h1>
           		<hr></hr>
-              < p className="App-intro">
-           Search for and annotate articles of interest!</ p>
+              <p className="App-intro">
+           Search for and annotate articles of interest!</p>
           </div>
 		  </div>
 	</div>	
